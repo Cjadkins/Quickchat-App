@@ -1,0 +1,19 @@
+<?php session_start(); ?><html>
+
+<head>
+
+
+</head>
+
+<body>
+
+<?php echo "Session ID: " . session_id(); ?>
+
+<form action="getlastlocation.php" method="POST">
+	<p>Last location update timestamp: <input type="text" name="timestamp"/></p>
+	<input type="submit" name="submit" value="submit"/>
+</form>
+
+</body>
+
+</html>

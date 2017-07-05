@@ -1,0 +1,19 @@
+<?php session_start(); ?><html>
+
+<head>
+
+
+</head>
+
+<body>
+
+<?php echo "Session ID: " . session_id(); ?>
+
+<form action="openchat.php" method="POST">
+	<p>Other username: <input type="text" name="otherUsername"/></p>
+	<input type="submit" name="submit" value="submit"/>
+</form>
+
+</body>
+
+</html>

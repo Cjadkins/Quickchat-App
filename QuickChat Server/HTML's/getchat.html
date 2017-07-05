@@ -1,0 +1,19 @@
+<?php session_start(); ?><html>
+
+<head>
+
+
+</head>
+
+<body>
+
+<?php echo "Session ID: " . session_id(); ?>
+
+<form action="getchat.php" method="POST">
+	<p>Chatroom hash ID: <input type="text" name="chatroomHashID" value="4dcb668c6907078e0ea770c574bd92fad89e1b9f5a1f0ede31fcd441b0ce8f7760323f20d401b003849730f8a72b6a89d3eb09017e786d9bce8eb44e4636e081"/></p>
+	<input type="submit" name="submit" value="submit"/>
+</form>
+
+</body>
+
+</html>

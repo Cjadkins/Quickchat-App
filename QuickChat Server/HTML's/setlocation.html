@@ -1,0 +1,21 @@
+<?php session_start(); ?><html>
+
+<head>
+
+
+</head>
+
+<body>
+
+<?php echo "Session ID: " . session_id(); ?>
+
+<form action="setlocation.php" method="POST">
+	<p>Latitude: <input type="text" name="latitude"/></p>
+	<p>Longitude: <input type="text" name="longitude"/></p>
+	<p>Attitude: <input type="text" name="attitude"/></p>
+	<input type="submit" name="submit" value="submit"/>
+</form>
+
+</body>
+
+</html>
